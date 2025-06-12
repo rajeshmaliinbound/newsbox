@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 <!-- Title -->
-@section('title', 'Newsbox -> home')
+@section('title', 'Newsbox -> Science/health')
 
 <!-- css -->
 @section('style')
@@ -22,7 +22,7 @@
 
     <!-- ##### Intro News Area Start ##### -->
     <section class="intro-news-area section-padding-100-0 mb-70">
-        <div class="container">            
+        <div class="container">
             <!-- All the news sections start-->
             <div class="row justify-content-center">
                 <!-- Intro News Tabs Area -->
@@ -31,7 +31,7 @@
 
                         <!-- Intro News Filter -->
                         <div class="intro-news-filter d-flex justify-content-between">
-                            <h6>Browsing : News</h6>
+                            <h6>Browsing : Science/Health</h6>
                         </div>
 
                         <div class="tab-content" id="nav-tabContent">
@@ -46,7 +46,7 @@
                                                 <!-- Blog Thumbnail -->
                                                 <div class="blog-thumbnail">
                                                     <a href="#"><img src="img/bg-img/14.jpg" alt=""></a>
-                                                    <span style="font-weight: 600; color: blue;" class="post-date">Catagory</span>
+                                                    <span style="font-weight: 600; color: blue;" class="post-date">Science / Health</span>
                                                 </div>
 
                                                 <!-- Blog Content -->
@@ -96,9 +96,7 @@
 @section('script')
     <script>
         $(document).ready(function(){
-            // $("#catagorymenu,#sportspage,#entertainmentpage,#sciencepage,#travelpage,#technologypage,#businesspage,#politicalspage").removeClass('activePage');
-            // $("#homepage,#internationalmenu,#india,#USA,#Nepal,#Bangladesh,#Chaina,#Bhutan,#Canada").removeClass('activePage');
-            $("#homepage").addClass('activePage');
+            $("#sciencepage").addClass('activePage');
         });
     </script>
 @endsection

@@ -11,8 +11,33 @@ class FileController extends Controller
         return view('newsbox.index');
     }
 
-    // view catagory page
-    public function catagory(){
-        return view('newsbox.catagory');
+    // view sports catagory page
+    public function sports(){
+        return view('newsbox.sports');
+    }
+
+    // view entertainment catagory page
+    public function entertainment(){
+        return view('newsbox.entertainment');
+    }
+
+    // view Science catagory page
+    public function science(){
+        return view('newsbox.science');
+    }
+
+    // view Business catagory page
+    public function business(){
+        return view('newsbox.business');
+    }
+
+    // view Technology catagory page
+    public function technology(){
+        return view('newsbox.technology');
+    }
+
+    // view Travel catagory page
+    public function travel(){
+        return view('newsbox.travel');
     }
 }

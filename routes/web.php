@@ -14,5 +14,11 @@ use App\Http\Controllers\FileController;
 |
 */
 
+// all pages view routes
 Route::get('/', [FileController::class,'home'])->name('home');
-// Route::get('/catagory', [FileController::class,'catagory'])->name('catagory');
+Route::get('/sports', [FileController::class,'sports'])->name('sports');
+Route::get('/entertainment', [FileController::class,'entertainment'])->name('entertainment');
+Route::get('/science-health', [FileController::class,'science'])->name('science');
+Route::get('/business', [FileController::class,'business'])->name('business');
+Route::get('/technology', [FileController::class,'technology'])->name('technology');
+Route::get('/travel', [FileController::class,'travel'])->name('travel');
