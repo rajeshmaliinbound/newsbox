@@ -12,7 +12,7 @@ class FileController extends Controller
     }
 
     // view catagory page
-    // public function catagory(){
-    //     return view('newsbox.catagory');
-    // }
+    public function catagory(){
+        return view('newsbox.catagory');
+    }
 }
