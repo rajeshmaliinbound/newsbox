@@ -15,7 +15,7 @@
 
                 <!-- Blog Content -->
                 <div class="blog-content">
-                    <span style="font-weight: 600; color: blue;" class="post-date">Catagory</span><br>
+                    <span style="font-weight: 600; color: red;" class="post-date">Catagory</span><br>
                     <span class="post-date">June 20, 2018</span>
                     <a href="#" class="post-title">Nearly a quarter have no emergency savings</a>
                 </div>

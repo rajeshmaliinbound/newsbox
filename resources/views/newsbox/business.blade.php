@@ -46,7 +46,7 @@
                                                 <!-- Blog Thumbnail -->
                                                 <div class="blog-thumbnail">
                                                     <a href="#"><img src="img/bg-img/14.jpg" alt=""></a>
-                                                    <span style="font-weight: 600; color: blue;" class="post-date">Business</span>
+                                                    <span style="font-weight: 600; color: red;" class="post-date">Business</span>
                                                 </div>
 
                                                 <!-- Blog Content -->

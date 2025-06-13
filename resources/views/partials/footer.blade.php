@@ -8,14 +8,6 @@
         <div class="row">
             <div class="col-12">
                 <div class="footer-content text-center">
-                    <!-- Footer Nav -->
-                    <div class="footer-nav">
-                        <ul>
-                            <li><a href="#">Contact Us</a></li>
-                            <li><a href="#">Closed Captioning</a></li>
-                            <li><a href="#">Site Map</a></li>
-                        </ul>
-                    </div>
                     <!-- Social Info -->
                     <div class="footer-social-info">
                         <a href="#" data-toggle="tooltip" data-placement="top" title="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
@@ -29,7 +21,7 @@
                     <!-- Copywrite Text -->
                     <p class="copywrite-text"><a href="#">
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Developed by <i class="fa fa-heart-o" aria-hidden="true"></i> <a href="https://colorlib.com" target="_blank"> Rajesh Mali</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
                 </div>
             </div>

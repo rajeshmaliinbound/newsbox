@@ -31,32 +31,7 @@
                                 <li><a id="entertainmentpage" href="{{ route('entertainment') }}">Entertainment</a></li>
                                 <li><a id="sciencepage" href="{{ route('science') }}">Science/Health</a></li>
                                 <li><a id="travelpage" href="{{ route('travel') }}">Travel</a></li>
-
-                                <!-- <li><a id="catagorymenu" href="#">Catagory</a>
-                                    <ul class="dropdown">
-                                        <li><a id="sportspage" href="{{ route('sports') }}">Sports</a></li>
-                                        <li><a id="entertainmentpage" href="{{ route('entertainment') }}">Entertainment</a></li>
-                                        <li><a id="sciencepage" href="#">Science / Health</a></li>
-                                        <li><a id="travelpage" href="#">Travel</a></li>
-                                        <li><a id="technologypage" href="#">Technology</a></li>
-                                        <li><a id="businesspage" href="#">Business</a></li>
-                                        <li><a id="politicalspage" href="#">Politicals</a></li>
-                                    </ul>
-                                </li> -->
-
-                                <!-- <li><a id="internationalmenu" href="#">International</a>
-                                    <ul class="dropdown">
-                                        <li><a id="india" href="#">India</a></li>
-                                        <li><a id="USA" href="#">USA</a></li>
-                                        <li><a id="Nepal" href="#">Nepal</a></li>
-                                        <li><a id="Bangladesh" href="#">Bangladesh</a></li>
-                                        <li><a id="Chaina" href="#">Chaina</a></li>
-                                        <li><a id="Bhutan" href="#">Bhutan</a></li>
-                                        <li><a id="Canada" href="#">Canada</a></li>
-                                    </ul>
-                                </li> -->
-
-                                <li><a href="#">Login</a></li>
+                                <li><a id="user-signup" href="{{ route('user_signup') }}"><i class="fa-solid fa-user"></i> Signup</a></li>
                             </ul>
                         </div>
                         <!-- Nav End -->

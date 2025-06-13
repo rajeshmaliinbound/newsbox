@@ -46,7 +46,7 @@
                                                 <!-- Blog Thumbnail -->
                                                 <div class="blog-thumbnail">
                                                     <a href="#"><img src="img/bg-img/14.jpg" alt=""></a>
-                                                    <span style="font-weight: 600; color: blue;" class="post-date">Catagory</span>
+                                                    <span style="font-weight: 600; color: red;" class="post-date">Catagory</span>
                                                 </div>
 
                                                 <!-- Blog Content -->
@@ -96,8 +96,6 @@
 @section('script')
     <script>
         $(document).ready(function(){
-            // $("#catagorymenu,#sportspage,#entertainmentpage,#sciencepage,#travelpage,#technologypage,#businesspage,#politicalspage").removeClass('activePage');
-            // $("#homepage,#internationalmenu,#india,#USA,#Nepal,#Bangladesh,#Chaina,#Bhutan,#Canada").removeClass('activePage');
             $("#homepage").addClass('activePage');
         });
     </script>

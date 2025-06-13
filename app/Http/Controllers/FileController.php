@@ -40,4 +40,14 @@ class FileController extends Controller
     public function travel(){
         return view('newsbox.travel');
     }
+
+    // view User Signup page
+    public function userSignup(){
+        return view('newsbox.user_signup');
+    }
+
+    // view User Signup page
+    public function userLogin(){
+        return view('newsbox.user_login');
+    }
 }
