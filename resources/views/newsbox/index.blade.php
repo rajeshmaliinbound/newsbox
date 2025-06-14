@@ -22,7 +22,7 @@
 
     <!-- ##### Intro News Area Start ##### -->
     <section class="intro-news-area section-padding-100-0 mb-70">
-        <div class="container">            
+        <div class="container">
             <!-- All the news sections start-->
             <div class="row justify-content-center">
                 <!-- Intro News Tabs Area -->

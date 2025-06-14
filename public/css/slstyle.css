@@ -1,0 +1,35 @@
+.section-padding-100-0 {
+    padding-top: 0px;
+    padding-bottom: 0;
+}
+
+.signup-validation {
+    color: red;
+}
+
+.btn-login{
+    color: #007bff;
+}
+
+.btn-login:hover{
+    color:rgb(5, 109, 221);
+    text-decoration: underline;
+}
+
+.btn-primary:hover{
+    font-weight: 400;
+}
+
+.card-logo{
+    text-align: center;
+    margin: 5px;
+}
+
+.card-logo img{
+    height: 30px;
+    width: 170px;
+}
+
+.card-header{
+    background-color: white;
+}

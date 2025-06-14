@@ -1,90 +1,81 @@
-@extends('layouts.master')
+<!DOCTYPE html>
+<html lang="en">
 
-<!-- Title -->
-@section('title', 'Newsbox -> home')
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-<!-- css -->
-@section('style')
-<style>
-    .section-padding-100-0 {
-        padding-top: 0px;
-        padding-bottom: 0;
-    }
+    <!-- Title -->
+    <title>Newsbox - user login</title>
 
-    .signup-validation {
-        color: red;
-    }
-</style>
-@endsection
+    <!-- Favicon -->
+    <link rel="icon" href="img/core-img/favicon.ico">
 
-@section('content')
-<!-- Preloader -->
-<div class="preloader d-flex align-items-center justify-content-center">
-    <div class="lds-ellipsis">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-    </div>
-</div>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/slstyle.css') }}">
+</head>
 
-<!-- ##### Intro News Area Start##### -->
-<section class="intro-news-area section-padding-100-0 mb-70">
-    <div class="container">
-        <!-- User signup form start-->
-        <div class="container mt-5">
-            <div class="row justify-content-center">
-                <div class="col-md-6">
-                    <div class="card">
-                        <div class="card-header">
-                            <h3 class="text-center">Login</h3>
-                        </div>
-                        <div class="card-body">
-                            <form action="#" method="POST">
-                                @csrf
-                                <div class="mb-3">
-                                    <label for="Username" class="form-label">Username / Email</label>
-                                    <input type="text" class="form-control" placeholder="Enter Username" name="username">
-                                    <p class="signup-validation">Username / Email field is require</p>
-                                </div>
+<body>
+    <!-- Main Content -->
+    <section class="intro-news-area section-padding-100-0 mb-70">
+        <div class="container">
+            <!-- User signin form start-->
+            <div class="container mt-5">
+                <div class="row justify-content-center">
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-logo">
+                                <a href=""><img src="img/core-img/logo.png" alt=""></a>
+                            </div>
+                            <div class="card-header">
+                                <h3 class="text-center">Login</h3>
+                            </div>
+                            <div class="card-body">
+                                <form action="#" method="POST">
+                                    @csrf
+                                    <div class="mb-3">
+                                        <label for="Username" class="form-label">Username / Email</label>
+                                        <input type="text" class="form-control" placeholder="Enter Username" name="username">
+                                        <p class="signup-validation">Username / Email field is require</p>
+                                    </div>
 
-                                <div class="mb-3">
-                                    <label for="password" class="form-label">Password:</label>
-                                    <input type="password" class="form-control" placeholder="Enter Password" name="password">
-                                    <p class="signup-validation">Password field is require</p>
-                                </div>
+                                    <div class="mb-3">
+                                        <label for="password" class="form-label">Password:</label>
+                                        <input type="password" class="form-control" placeholder="Enter Password" name="password">
+                                        <p class="signup-validation">Password field is require</p>
+                                    </div>
 
-                                <h6 style="color:red;"><h6>
-                                <button type="submit" class="btn btn-primary w-100">Login</button>
-                            </form>
+                                    <h6 style="color:red;"><h6>
+                                    <button type="submit" class="btn btn-primary w-100">Signin</button>
+                                    <p>New user? <a href="{{ route('user_signup') }}" class="btn-login">Signup</a></p>
+                                    <a href="" class="btn btn-primary">Back</a>
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <!-- User signin form End-->
         </div>
-        <!-- User signup form start-->
-    </div>
-</section>
-<!-- ##### Intro News Area End ##### -->
+    </section>
 
-<!-- ##### All Javascript Script ##### -->
-<!-- jQuery-2.2.4 js -->
-<script src="js/jquery/jquery-2.2.4.min.js"></script>
-<!-- Popper js -->
-<script src="js/bootstrap/popper.min.js"></script>
-<!-- Bootstrap js -->
-<script src="js/bootstrap/bootstrap.min.js"></script>
-<!-- All Plugins js -->
-<script src="js/plugins/plugins.js"></script>
-<!-- Active js -->
-<script src="js/active.js"></script>
-@endsection
+    <!-- ##### All Javascript Script ##### -->
+    <!-- jQuery-2.2.4 js -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/bootstrap/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
 
-<!-- script -->
-@section('script')
-<script>
-    $(document).ready(function() {
-        $("#user-signup").addClass('activePage');
-    });
-</script>
-@endsection
+    <script>
+        $(document).ready(function() {
+            $("#user-signup").addClass('activePage');
+        });
+    </script>
+
+</body>
+</html>

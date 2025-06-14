@@ -22,6 +22,7 @@ Route::get('/science-health', [FileController::class,'science'])->name('science'
 Route::get('/business', [FileController::class,'business'])->name('business');
 Route::get('/technology', [FileController::class,'technology'])->name('technology');
 Route::get('/travel', [FileController::class,'travel'])->name('travel');
+Route::get('/newsid', [FileController::class,'showpost'])->name('showpost');
 
 // user Signup, Signin, Signout routes
 Route::get('/user-signup', [FileController::class,'userSignup'])->name('user_signup');

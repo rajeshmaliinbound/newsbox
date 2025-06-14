@@ -39,7 +39,7 @@ class FileController extends Controller
     // view Travel catagory page
     public function travel(){
         return view('newsbox.travel');
-    }
+    }   
 
     // view User Signup page
     public function userSignup(){
@@ -49,5 +49,10 @@ class FileController extends Controller
     // view User Signup page
     public function userLogin(){
         return view('newsbox.user_login');
+    }
+
+    // view User Signup page
+    public function showpost(){
+        return view('newsbox.show_news');
     }
 }
